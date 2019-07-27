@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>chitkara university</title>
+</head>
+<body>
+<h1>Time Table:</h1>
+<table border="4" cellspacing="3" cellpadding="6">
+    <tr bgcolor="lightgrey">
+        <th>Days</th>
+    <th>1</th>
+        <th>2</th>
+        <th>3</th>
+        <th>4</th>
+        <th>5</th>
+        <th>6</th>
+        <th>7</th>
+        <th>8</th>
+    </tr>
+    <tr>
+        <th>Monday</th>
+        <td>CS103<br>2P<br>217<br>Manisha Aggarwal</td>
+    <td>CS103<br>2P<br>217<br>Manisha Aggarwal</td>
+        <td>AM103<br>2L<br>313<br>Dr. Neha Kumra</td>
+        <td></td>
+        <td>CS111<br>2P<br>217<br>Dr. Neha Kishore</td>
+        <td>CS111<br>2P<br>217<br>Dr. Neha Kishore</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr bgcolor="lightgrey">
+        <th>Tuesday</th>
+        <td></td>
+        <td></td>
+         <td>CS103<br>2P<br>217<br>Manisha Aggarwal</td>
+    <td>CS103<br>2P<br>217<br>Manisha Aggarwal</td>
+       <td>CS111<br>2P<br>217<br>Dr. Neha Kishore</td>
+            <td></td>
+<td>CS110<br>2P<br>308<br>Neetu Rani</td>
+        <td>CS110<br>2P<br>308<br>Neetu Rani</td>
+    </tr>
+    <tr>
+        <th>Wednesday</th>
+        <td>CS103<br>2P<br>217<br>Manisha Aggarwal</td>
+        <td>CS103<br>2P<br>217<br>Manisha Aggarwal</td>
+        <td></td>
+        <td></td>
+        <td>CS111<br>2P<br>217<br>Dr. Neha Kishore</td>
+        <td>CS111<br>2P<br>217<br>Dr. Neha Kishore</td>
+         <td>AM103<br>2L<br>313<br>Dr. Neha Kumra</td>
+         <td>ES101<br>2L<br>313<br>Dr. Arun lal <br>Srivastav</td>
+    </tr>
+    <tr bgcolor="lightgrey">
+        <th>Thursday</th>
+        <td>CS103<br>2P<br>217<br>Manisha Aggarwal</td>
+        <td>CS103<br>2P<br>217<br>Manisha Aggarwal</td>
+         <td>AM103<br>2L<br>313<br>Dr. Neha Kumra</td>
+        <td></td>
+        <td>CS111<br>2P<br>217<br>Dr. Neha Kishore</td>
+        <td>CS111<br>2P<br>217<br>Dr. Neha Kishore</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <th>Friday</th>
+        <td></td>
+        <td></td>
+        <td>CS103<br>2P<br>217<br>Manisha Aggarwal</td>
+        <td>CS103<br>2P<br>217<br>Manisha Aggarwal</td>
+        <td>CS110<br>2P<br>308<br>Neetu Rani</td>
+        <td>CS110<br>2P<br>308<br>Neetu Rani</td>
+         <td>CS111<br>2P<br>217<br>Dr. Neha Kishore</td>
+        <td>CS111<br>2P<br>217<br>Dr. Neha Kishore</td>
+    </tr>
+    <tr bgcolor="lightgrey">
+        <th>Saturday</th>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <th>Sunday</th>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
+</body>
+</html>
