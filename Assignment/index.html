@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Click Me button</title>
+</head>
+
+<style>
+   *
+   {
+     margin:0;
+     padding:0;
+   }
+    .container
+    {
+       height:650px;
+       width:100%;
+       background:linear-gradient(to bottom left,orange,white,green);
+       background-size:cover;
+       perspective:200px;
+    }
+    .btn
+    {
+      background:linear-gradient(to bottom right,orange,white,green);
+      font-size:40px;
+      border-radius:4px;
+      cursor:pointer;
+      border-color:white;
+      position:absolute;
+      top:50%;
+      left:45%;
+      width:150px;
+      transform:translateY(8px);
+      box-shadow:2px 2px 8px #a5a58d,2px 2px 2px #a5a58d,2px 2px 2px #a5a58d;
+      text-align:center;
+    }
+    .btn:hover
+    {
+      box-shadow: 2px 2px 8px #2d00f7,2px 2px 2px #7400b8,2px 2px 2px #7400b8,2px 2px 2px #7400b8,2px 2px 2px #2d00f7,2px 2px 2px #2d00f7,2px 2px 2px #7400b8,2px 2px 2px #7400b8,2px 2px 2px #7400b8,2px 2px 2px #2d00f7;
+      transform:translateY(-0.25em);
+      transition:1s;
+    }
+    a{
+     text-decoration:none;
+     color:inherit;
+    }
+</style>
+
+<body>
+   <div class="container">
+       <div class="btn"><a href="../Assigment2/ResponsivePage.html">INDIA</a></div>
+   </div>
+</body>
+
+</html>
