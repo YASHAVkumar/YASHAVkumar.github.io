@@ -1,0 +1,204 @@
+*{
+ margin:0 auto;
+ padding:0;
+}
+nav
+{
+  border:2px solid black;
+   background-color: black;
+    font-size:2rem;
+  width:100%;
+  position:sticky;
+}
+
+.nav .navi
+{
+  list-style-type:none;
+    order:5;
+     color:white;
+   margin-top:4px;
+   width:100%;
+    display:flex;
+      flex-direction:row;
+  letter-spacing:0.4rem;
+}
+
+.home
+{
+color:red;
+
+}
+a{
+   text-decoration:none;
+   color:inherit;
+
+  }
+
+.nav #links
+{
+  list-style-type:none;
+  display:flex;
+  flex-direction:row;
+   justify-content:flex-start;
+  width:300px;
+}
+
+.nav ul li:nth-of-type(2)
+{
+
+}
+.nav ul li:nth-of-type(3)
+{
+
+}
+
+/*********************Landing image******/
+.cover
+{
+ background-image:url("background.jpg");
+ background-size:cover;
+ width:100%;
+ height:530px;
+
+}
+
+/***********cards party suru********************/
+.container
+{
+     background-color:#030317;
+     width:100%;
+     height:400px;
+}
+.grids
+{
+   display:flex;
+   color:#ffffff;
+   position:relative;
+   top:15%;
+   perspective:700px;
+}
+
+.grids div
+{
+
+   width:17%;
+    height:280px;
+    background:black;
+}
+
+
+.grids div .frontSide
+{
+   position:absolute;
+    background:cyan;
+    backface-visibility:hidden;
+    z-index:1;
+    width:100%;
+    height:100%;
+}
+
+.grids div .backSide
+{
+    position:absolute;
+    background:red;
+    backface-visibility:hidden;
+    transform:rotateY(180deg);
+    width:100%;
+    height:100%;
+}
+.card{
+ transition:2s;
+ width:100%;
+ height:100%;
+ transform-style: preserve-3d;
+}
+.grids .card:hover
+{
+   cursor:pointer;
+   transform:rotateY(180deg);
+   box-shadow:2px
+}
+
+.cardimg
+{
+ width:100%;
+ height:100%;
+ position:absolute;
+}
+
+.backSide strong
+{
+  margin-left:20px;
+  font-size:3vh;
+}
+
+/********************footer********************/
+.footer
+{
+ width:100%;
+ height:300px;
+ background:black;
+ color:white;
+ display:grid;
+ grid-template-columns:45% auto 45%;
+ grid-template-rows:100%;
+
+}
+#about
+{
+  grid-column-start:1;
+  grid-column-end:2;
+  width:100%;
+  height:100%;
+
+}
+.verticalLine
+{
+ border:4px groove white;
+ height:100%;
+ width:1px;
+}
+#contact
+{
+  width:100%;
+    height:100%;
+  grid-column-start:3;
+  grid-column-end:4;
+
+}
+
+@media only screen and (max-width: 600px) {
+
+   .nav .navi
+   {
+     flex-direction:column;
+     font-size:2rem;
+     align-items:center;
+   }
+   .nav #links
+   {
+     flex-direction:column;
+     align-items:center;
+     margin:auto;
+   }
+
+   .grids
+   {
+      height:150px;
+      width:100%;
+   }
+   .frontSide
+   {
+     font-size:0.7rem;
+   }
+   .backSide strong
+   {
+    font-size:0.6rem;
+   }
+   #contact
+   {
+     font-size:.8rem;
+     margin-left:1px;
+
+   }
+}

@@ -1,0 +1,44 @@
+<html>
+   <head><title>Bio Data</title></head>
+    <style>
+        fieldset *
+         {
+           margin-top:10px; 
+         }
+    </style>
+   <body>
+       <h2>My Bio Data</h2>
+       <div>
+         <form action="#" method="GET"> 
+           <fieldset>
+               <legend>Personal Information</legend>
+               <label for="firstName">FirstName: </label> <input type="text" name="fname" placeholder="First Name">
+               <label for="lastName">LastName: </label> <input type="text" name="lname" placeholder="Last Name">
+               <br>
+                <label for="gender" >Male :</label> <input type="radio" name="gender" placeholder="Text Here">
+                 <label for="gender" >Female :</label> <input type="radio" name="gender" placeholder="Text Here">
+                 <label for="gender" >Other :</label> <input type="radio" name="gender" placeholder="Text Here">
+                <br>
+                <label for="dob" >Date Of Birth :</label> <input type="date" name="dob" placeholder="date">
+                <br>
+                <label for="mail" >E-Mail :</label> <input type="email" name="email" placeholder="Enter Your Email">
+                <br>
+                 <label for="call" >Phone :</label> <input type="tel" name="contact" placeholder="+91">
+                <br>
+                <label for="height" >Height :</label> <input type="number" name="height"  placeholder="Height in feet">
+           </fieldset>
+           <fieldset>
+               <legend>Education</legend>
+               <label for="school">School Name :</label> <input type="text" name="Sname"  placeholder="School Name"><br>
+               <label for="class" >Class :</label> <input type="number" name="class" placeholder="Enter Class">
+               <br>
+               <label for="stream" >Stream :</label> <select name="stream"><option>Stream</option><option>Non Med</option><option>Med</option></select>
+                <br>
+               <label>Marksheet : </label><input name="mark" type="file" >
+           </fieldset>
+           <br>
+           <input type="submit" name="submit"> 
+         </form>
+       </div>
+   </body>
+</html>

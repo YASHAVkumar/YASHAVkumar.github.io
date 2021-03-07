@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet"  href="port.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<style>
+#collapsibleNavbar a
+{
+ color:black;
+ font-family: 'RocknRoll One', sans-serif;
+ font-size:2rem;
+}
+tbody a
+{
+  color:black;
+}
+</style>
+<body style="background-color:#0a0908;" >
+<br>
+<div class="container-fluid" >
+    <div class="container">
+        <div class="container navigation" >
+            <nav class="navbar navbar-expand-md bg-white navbar-dark">
+                <!-- Brand -->
+                <a class="navbar-brand" href="#" style="color:black"><strong>PortFolio</strong></a>
+
+                <!-- Toggler/collapsibe Button -->
+                <button class="navbar-toggler" type="button"  data-toggle="collapse"  data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon bg-dark"></span>
+                </button>
+
+                <!-- Navbar links -->
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav ">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#project">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#lan">Languages</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <!----content-->
+        <br>
+
+        <div class="container" >
+            <div class="container bg-white">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <img  class="img-thumbnail" src="me.jpg" width="50%" height="100%">
+                    </div>
+                    <div class="col-sm-9">
+                        <h3>Hello.</h3>
+                        <h5>I AM YASHAV KUMAR</h5>
+                        <h6>3rd CSE Student at Chitkara University</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <!--about-->
+        <div class="container" id="about">
+            <div class="container bg-white">
+                <h2>About Me</h2>
+                <h5 style="font-family: 'Akaya Telivigala', cursive;">Hey! I am Yashav Kumar, Full Stack Developer and Competitive Programmer </h5>
+                <p><strong>My Projects</strong> :- Buy Products Website <strong>Django</strong>, Learn C and Java Website <strong>MERN</strong>, Game Projects like tic tac toe and stone paper scissor</p>
+            </div>
+        </div>
+
+        <!--Projects-->
+        <div class="container " id="project">
+            <div class="container bg-white">
+              <h2>Personal Project</h2>
+                <table class="table table-hover table-secondary">
+                    <tbody>
+                    <tr><td><a  href="https://djangotraderapp.herokuapp.com/">E commerce Website</a></td></tr>
+                    <tr><td><a href="https://react-website-yashavkumar.vercel.app">Learn C and Java Website</a></td></tr>
+                    <tr><td><a href="https://yashavthewebapp.herokuapp.com/"> Games</a></td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+   <!--Languages-->
+        <div class="container ">
+            <div class="container bg-white"  id="lan">
+                <h2>Languages and Tools</h2>
+                <table class="table table-hover table-expand-sm table-secondary">
+                    <tbody>
+                    <tr><td>C</td></tr>
+                    <tr><td>JAVA</td></tr>
+                    <tr><td>Bootstrap</td></tr>
+                    <tr><td>HTML</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>
