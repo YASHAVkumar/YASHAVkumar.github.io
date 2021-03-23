@@ -127,3 +127,7 @@ input:focus
   font-family: 'Source Code Pro', monospace;
   letter-spacing:2px;
 }
+.searcgAlert h2 span
+{ 
+  font-size:2rem;
+} 
