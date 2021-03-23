@@ -131,7 +131,11 @@ input:focus
 { 
   font-size:20px;
   margin-left:1%;
- outine:none;
+   border-raduis:4px;
   background-color:cyan;
  width:30px;
+} 
+.searchAlert h2 button:focus
+{ 
+ outline:none;
 } 
