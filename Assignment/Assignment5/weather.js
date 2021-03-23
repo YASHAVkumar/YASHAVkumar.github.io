@@ -29,7 +29,7 @@ checkList=(value)=>{
          var alert=document.getElementById('alert');
          alert.style="height:30px;margin-top:4px;";
          alert.setAttribute('class','searchAlert');
-         alert.innerHTML="<h2>You already Searched This City<span>&times;</span></h2>";
+         alert.innerHTML="<h2>You already Searched This City  <h1 id='cross'>&times;</h1> </h2>";
          console.log("you already searched this before");
        }
    return false;
