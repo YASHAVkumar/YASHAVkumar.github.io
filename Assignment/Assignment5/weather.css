@@ -129,5 +129,6 @@ input:focus
 }
 .searcgAlert h2 span
 { 
-  font-size:2rem;
+  font-size:20px;
+  margin-left:1%;
 } 
