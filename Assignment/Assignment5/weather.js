@@ -7,6 +7,10 @@ const apidata={
   }
 }
 
+function deleteAlert(){
+  document.getElementById('cross').parentNode.removeChild(); 
+}
+
 fetchData=function(event)
 {
    const search=document.getElementById('cityInput');
