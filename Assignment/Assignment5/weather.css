@@ -1,0 +1,129 @@
+*
+{
+ margin:0px;
+ padding:0px;
+}
+
+nav
+{
+  border:2px solid black;
+   background-color: black;
+    font-size:2rem;
+  width:100%;
+  position:sticky;
+}
+
+.nav .navi
+{
+  list-style-type:none;
+    order:5;
+     color:white;
+   margin-top:4px;
+   width:100%;
+    display:flex;
+      flex-direction:row;
+  letter-spacing:0.4rem;
+}
+
+
+.home
+{
+color:red;
+}
+a{
+   text-decoration:none;
+   color:inherit;
+  }
+
+
+#datam
+{
+ margin-left:70%;
+}
+.main_head
+{
+  margin-left:2%;
+  font-size:4rem;
+  font-family: 'Frijole', cursive;
+}
+
+#cityInput
+{
+ width:45%;
+ height:50px;
+ font-size:25px;
+ text-align:center;
+ margin-top:5%;
+ margin-left:25%;
+
+ input-outline:none;
+ border-top-right-radius:25%;
+ border-bottom-left-radius:25%;
+ border:10px ridge purple;
+ background:linear-gradient(to right top,purple,white,purple);
+ letter-spacing:10px;
+ border:2px solid purple;
+}
+input:focus
+{
+ outline:none;
+  letter-spacing:1px;
+}
+.yourSearch
+{
+  width:80%;
+  display:flex;
+  justify-content:space-around;
+  margin-left:10%;
+  flex-wrap:wrap;
+  margin-top:5%;
+  
+}
+.yourSearch .card
+{
+  width:250px;
+  height:300px;
+  margin-top:2%;
+  background:white;
+  transform:translateY(-10px);
+  box-shadow:2px 2px  #bc00dd ,2px 2px #bc00dd,2px 2px  #bc00dd ,2px 2px #bc00dd,2px 2px  #bc00dd ,2px 2px #bc00dd,2px 2px  #bc00dd ,2px 2px #bc00dd,2px 2px  #bc00dd ,2px 2px #bc00dd,4px 2px  #bc00dd ,4px 2px 2px #bc00dd;
+  color:black;
+  text-align:center;
+}
+.card .head
+{
+  font-size:2rem;
+  margin-top:10px;
+
+}
+
+.card .date
+{
+  font-style:italic;
+}
+
+.card .temp
+{
+  font-size:40px;
+
+}
+
+.card .weather
+{
+  font-weight:bold;
+  font-size:1.7rem;
+}
+.card .weatherDesc
+{
+  font-style:italic;
+  font-weight:2px;
+}
+
+.searchAlert h2
+{
+  color:#7400b8;
+  margin-left:40%;
+  text-shadow:2px 2px 2px pink,2px 2px 2px pink,2px 2px 2px pink,2px 2px 2px pink,2px 2px 2px pink,2px 2px 2px white,2px 2px 2px pink,2px 2px 2px pink,2px 2px 2px pink,2px 2px 2px pink,2px 2px 2px white;
+  font-family: 'Source Code Pro', monospace;
+  letter-spacing:2px;
+}
