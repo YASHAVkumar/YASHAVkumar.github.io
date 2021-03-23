@@ -7,9 +7,6 @@ const apidata={
   }
 }
 
-function deleteAlert(){
-  document.getElementById('cross').parentNode.removeChild(); 
-}
 
 fetchData=function(event)
 {
@@ -33,7 +30,7 @@ checkList=(value)=>{
          var alert=document.getElementById('alert');
          alert.style="height:30px;margin-top:4px;";
          alert.setAttribute('class','searchAlert');
-         alert.innerHTML="<h2>You already Searched This City  <button id='cross' onClick='deleteAlert()'>&times;</h1> </button>";
+         alert.innerHTML="<h2 id='alert'>You already Searched This City  <button id='cross' onClick='(function(event){event.parentElement.remove();})(this)'>&times;</h1> </button>";
          console.log("you already searched this before");
        }
    return false;
