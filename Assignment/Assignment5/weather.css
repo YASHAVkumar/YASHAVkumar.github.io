@@ -127,8 +127,10 @@ input:focus
   font-family: 'Source Code Pro', monospace;
   letter-spacing:2px;
 }
-.searcgAlert h2 span
+.searcgAlert h2 button
 { 
   font-size:20px;
   margin-left:1%;
+ outine:none;
+  background-color:red;
 } 
