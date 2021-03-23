@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Know Today's weather across the world'</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script rel="script" src="weather.js"></script>
+    <link rel="stylesheet" href="weather.css">
+
+</head>
+<header>
+    <nav class="nav">
+        <ul class="navi">
+            <li class="home">
+                <a href="#">Home</a>
+            </li>
+            <li id="datam"><a href="../Assignment4/Portfolio.html">PortFolio</a></li>
+        </ul>
+    </nav>
+    <hr>
+</header>
+<body bgcolor="black" style="color:purple;">
+
+        <h1 class="main_head">Know today's weather </h1>
+    <input type="text" placeholder="Enter  City" id="cityInput" onkeypress="fetchData(event)" class="in">
+       <br>
+        <div id="alert"></div>
+   <div class="yourSearch" id="main"></div>
+</body>
+</html>
